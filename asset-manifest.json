@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Risehigher-assignment/static/css/main.24ed00d8.css",
+    "main.js": "/Risehigher-assignment/static/js/main.9ced7849.js",
+    "static/js/787.9d2d08f9.chunk.js": "/Risehigher-assignment/static/js/787.9d2d08f9.chunk.js",
+    "index.html": "/Risehigher-assignment/index.html",
+    "main.24ed00d8.css.map": "/Risehigher-assignment/static/css/main.24ed00d8.css.map",
+    "main.9ced7849.js.map": "/Risehigher-assignment/static/js/main.9ced7849.js.map",
+    "787.9d2d08f9.chunk.js.map": "/Risehigher-assignment/static/js/787.9d2d08f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24ed00d8.css",
+    "static/js/main.9ced7849.js"
+  ]
+}
