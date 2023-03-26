@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mukta', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head-main {
+  margin-top: 2em;
+  margin-left: 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list {
+  margin-top: 4em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.images {
+  height: 3em;
+  width: 3em;
+}
+
+.scrollBar {
+  border: 2px solid black;
+  overflow-y: scroll;
+  height: 50vh;
+}
+
+
+.container {
+  height: 100vh;
+}
+
+
+/* Cards CSS */
+.cards {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.cards div {
+  margin: 0 0.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top5 {
+  margin-top: 2em;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.main2 {
+  padding-top: 2em;
+  display: flex;
+}
+
+.main2 div {
+  padding-left: 1em;
+  padding-right: 4em;
+}
+
+/* List */
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bx {
+  width: -webkit-fill-available;
+}
+
+.name {
+  text-indent: 2em;
+}
+
+.navDiv {
+  margin-top: 1em;
+  /* margin-left:; */
+}
+
+.mcap {
+  position: relative;
+  right: 1em;
+}
+
+.main2 p {
+  font-size: 1.3em;
+}
+
+.imgname {
+  display: flex;
+}
+
+.coinname{
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+.coinsymb{
+  margin-top: 1em;
+}
+
+.next{
+  position: relative;
+  left: 1300px;
+  bottom: 10px;
+}
+.prev{
+  position: relative;
+  left: 10px;
+  bottom: 10px;
 }
